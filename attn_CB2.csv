@@ -1,0 +1,333 @@
+object,category,type,path,m_score,recognition
+mallet,tools,nonliving,thesis_stim/mallet_exemplar1.jpg,0.571429,old
+camera lens,electronics,nonliving,thesis_stim/camera_lens_exemplar1.jpg,0.571429,old
+ironing board,household_items,nonliving,thesis_stim/ironing_board_exemplar1.jpg,0.5,old
+breadbox,kitchen_items,nonliving,thesis_stim/breadbox_exemplar1.jpg,0.422222,old
+grater,kitchen_items,nonliving,thesis_stim/grater_exemplar1.jpg,0.555556,old
+toy,toys,nonliving,thesis_stim/toy_exemplar1.jpg,0.511111,old
+tarantula,insect,living,thesis_stim/tarantula_exemplar1.jpg,0.553191,old
+toy phone,toys,nonliving,thesis_stim/toy_phone_exemplar1.jpg,0.603774,old
+tape,office_supplies,nonliving,thesis_stim/tape_exemplar1.jpg,0.688889,old
+sarcophagus,decor,nonliving,thesis_stim/sarcophagus_exemplar1.jpg,0.689655,old
+ladder,furniture,nonliving,thesis_stim/ladder_exemplar1.jpg,0.454545,old
+microwave,appliances,nonliving,thesis_stim/microwave_exemplar1.jpg,0.466667,old
+broom,tools,nonliving,thesis_stim/broom_exemplar1.jpg,0.305556,old
+bottle,kitchen_items,nonliving,thesis_stim/bottle_exemplar1.jpg,0.363636,old
+millipede,insect,living,thesis_stim/millipede_exemplar1.jpg,0.722222,old
+soda machine,street_items,nonliving,thesis_stim/soda_machine_exemplar1.jpg,0.535714,old
+toaster,appliances,nonliving,thesis_stim/toaster_exemplar1.jpg,0.381818,old
+emu,birds,living,thesis_stim/emu_exemplar1.jpg,0.689655,old
+treasure chest,decor,nonliving,thesis_stim/treasure_chest_exemplar1.jpg,0.45614,old
+space heater,electronics,nonliving,thesis_stim/space_heater_exemplar1.jpg,0.408163,old
+purse,clothing,nonliving,thesis_stim/purse_exemplar1.jpg,0.25,old
+rollerblade,sports,nonliving,thesis_stim/rollerblade_exemplar1.jpg,0.457143,old
+bench,street_items,nonliving,thesis_stim/bench_exemplar1.jpg,0.714286,old
+toy xylophone,toys,nonliving,thesis_stim/toy_xylophone_exemplar1.jpg,0.277778,old
+keg,furniture,nonliving,thesis_stim/keg_exemplar1.jpg,0.5,old
+badminton racquet,sports,nonliving,thesis_stim/badminton_racquet_exemplar1.jpg,0.530612,old
+cooking pot,kitchen_items,nonliving,thesis_stim/cooking_pot_exemplar1.jpg,0.32,old
+toothbrush,household_items,nonliving,thesis_stim/toothbrush_exemplar1.jpg,0.517857,old
+dress,clothing,nonliving,thesis_stim/dress_exemplar1.jpg,0.387755,old
+pail,tools,nonliving,thesis_stim/pail_exemplar1.jpg,0.320755,old
+wristwatch,clothing,nonliving,thesis_stim/wristwatch_exemplar1.jpg,0.436364,old
+mosque,building,nonliving,thesis_stim/mosque_exemplar1.jpg,0.482143,old
+toilet,furniture,nonliving,thesis_stim/toilet_exemplar1.jpg,0.609756,old
+hollywood star,decor,nonliving,thesis_stim/hollywood_star_exemplar1.jpg,0.591837,old
+fishtank,furniture,nonliving,thesis_stim/fishtank_exemplar1.jpg,0.82,old
+lion,mammal,living,thesis_stim/lion_exemplar1.jpg,0.742857,old
+biplane,vehicle,nonliving,thesis_stim/biplane_exemplar1.jpg,0.46,old
+thimble,household_items,nonliving,thesis_stim/thimble_exemplar1.jpg,0.642857,old
+scissors,office_supplies,nonliving,thesis_stim/scissors_exemplar1.jpg,0.306122,old
+water fountain,street_items,nonliving,thesis_stim/water_fountain_exemplar1.jpg,0.571429,old
+diploma,office_supplies,nonliving,thesis_stim/diploma_exemplar1.jpg,0.423077,old
+whistle,tools,nonliving,thesis_stim/whistle_exemplar1.jpg,0.697674,old
+stationary bike,sports,nonliving,thesis_stim/stationary_bike_exemplar1.jpg,0.46,old
+clarinet,music_inst,nonliving,thesis_stim/clarinet_exemplar1.jpg,0.734694,old
+magnifying glass,office_supplies,nonliving,thesis_stim/magnifyingglass_exemplar1.jpg,0.466666667,old
+armoire,furniture,nonliving,thesis_stim/armoire_exemplar1.jpg,0.517241,old
+computer monitor,electronics,nonliving,thesis_stim/computer_monitor_exemplar1.jpg,0.448276,old
+bridge,building,nonliving,thesis_stim/bridge_exemplar1.jpg,0.638298,old
+fondue fork,kitchen_items,nonliving,thesis_stim/fondue_fork_exemplar1.jpg,0.581395,old
+gas can,tools,nonliving,thesis_stim/gas_can_exemplar1.jpg,0.711111,old
+protractor,office_supplies,nonliving,thesis_stim/protractor_exemplar1.jpg,0.38,old
+chess bishop,toys,nonliving,thesis_stim/chess_bishop_exemplar1.jpg,0.642857,old
+giraffe toy,toys,nonliving,thesis_stim/giraffe_toy_exemplar1.jpg,0.535714,old
+toy basket,toys,nonliving,thesis_stim/toy_basket_exemplar1.jpg,0.469388,old
+tractor,vehicle,nonliving,thesis_stim/tractor_exemplar1.jpg,0.416667,old
+teepee,building,nonliving,thesis_stim/teepee_exemplar1.jpg,0.563636,old
+minivan,vehicle,nonliving,thesis_stim/minivan_exemplar1.jpg,0.18,old
+space shuttle,vehicle,nonliving,thesis_stim/space_shuttle_exemplar1.jpg,0.557692,old
+fairy statue,decor,nonliving,thesis_stim/fairy_statue_exemplar1.jpg,0.785714,old
+gong,music_inst,nonliving,thesis_stim/gong_exemplar1.jpg,0.314286,old
+jukebox,music_inst,nonliving,thesis_stim/jukebox_exemplar1.jpg,0.54386,old
+crib,furniture,nonliving,thesis_stim/crib_exemplar1.jpg,0.3,old
+bongo drum,music_inst,nonliving,thesis_stim/bongo_drum_exemplar1.jpg,0.416667,old
+rockinghorse,toys,nonliving,thesis_stim/rockinghorse_exemplar1.jpg,0.613636,old
+toy soldier,toys,nonliving,thesis_stim/toy_soldier_exemplar1.jpg,0.672727,old
+lei,clothing,nonliving,thesis_stim/lei_exemplar1.jpg,0.827586,old
+dragonfly,insect,living,thesis_stim/dragonfly_exemplar1.jpg,0.75,old
+hairbrush,household_items,nonliving,thesis_stim/hairbrush_exemplar1.jpg,0.488889,old
+wetsuit,clothing,nonliving,thesis_stim/wetsuit_exemplar1.jpg,0.326531,old
+boar,mammal,living,thesis_stim/boar_exemplar1.jpg,0.68,old
+sidewalk,street_items,nonliving,thesis_stim/sidewalk_exemplar1.jpg,0.8,old
+baseball,sports,nonliving,thesis_stim/baseball_exemplar1.jpg,0.6,old
+cabinet,furniture,nonliving,thesis_stim/cabinet_exemplar1.jpg,0.25,old
+spotlight,furniture,nonliving,thesis_stim/spotlight_exemplar1.jpg,0.350877,old
+slide,street_items,nonliving,thesis_stim/slide_exemplar1.jpg,0.314286,old
+coin,household_items,nonliving,thesis_stim/coin_exemplar1.jpg,0.571429,old
+ATM,street_items,nonliving,thesis_stim/atm_exemplar1.jpg,0.577778,old
+earring,clothing,nonliving,thesis_stim/earring_exemplar1.jpg,0.535714,old
+french press,kitchen_items,nonliving,thesis_stim/french_press_exemplar1.jpg,0.68,old
+scale,household_items,nonliving,thesis_stim/scale_exemplar1.jpg,0.309524,old
+soccer ball,sports,nonliving,thesis_stim/soccerball_exemplar1.jpg,0.477272727,old
+cigarette,household_items,nonliving,thesis_stim/cigarette_exemplar1.jpg,0.75,old
+disk,electronics,nonliving,thesis_stim/disk_exemplar1.jpg,0.68,old
+gamepad,electronics,nonliving,thesis_stim/gamepad_exemplar1.jpg,0.470588,old
+panda,mammal,living,thesis_stim/panda_exemplar1.jpg,0.708333,old
+glass,kitchen_items,nonliving,thesis_stim/glass_exemplar1.jpg,0.2,old
+bulldog,mammal,living,thesis_stim/bulldog_exemplar1.jpg,0.773585,old
+handheld vacuum,appliances,nonliving,thesis_stim/handheld_vacuum_exemplar1.jpg,0.448276,old
+backpack,clothing,nonliving,thesis_stim/backpack_exemplar1.jpg,0.408163,old
+greyhound,mammal,living,thesis_stim/greyhound_exemplar1.jpg,0.551724,old
+violin,music_inst,nonliving,thesis_stim/violin_exemplar1.jpg,0.694444,old
+metronome,music_inst,nonliving,thesis_stim/metronome_exemplar1.jpg,0.571429,old
+packing tape,office_supplies,nonliving,thesis_stim/packing_tape_exemplar1.jpg,0.361111,old
+caterpillar,insect,living,thesis_stim/caterpillar_exemplar1.jpg,0.740741,old
+beanie,clothing,nonliving,thesis_stim/beanie_exemplar1.jpg,0.407407,old
+water gun,toys,nonliving,thesis_stim/water_gun_exemplar1.jpg,0.571429,old
+office building,building,nonliving,thesis_stim/office_building_exemplar1.jpg,0.551724,old
+penguin,birds,living,thesis_stim/penguin_exemplar1.jpg,0.821429,old
+refrigerator,appliances,nonliving,thesis_stim/refrigerator_exemplar1.jpg,0.607143,old
+oyster,sea,living,thesis_stim/oyster_exemplar1.jpg,0.758621,old
+factory,building,nonliving,thesis_stim/factory_exemplar1.jpg,0.408163,old
+squid,sea,living,thesis_stim/squid_exemplar1.jpg,0.571429,old
+planet,decor,nonliving,thesis_stim/planet_exemplar1.jpg,0.464286,old
+vacuum,appliances,nonliving,thesis_stim/vacuum_exemplar1.jpg,0.488889,old
+bowl,kitchen_items,nonliving,thesis_stim/bowl_exemplar1.jpg,0.571429,old
+geode,decor,nonliving,thesis_stim/geode_exemplar1.jpg,0.814815,old
+measuring tape,tools,nonliving,thesis_stim/measuring_tape_exemplar1.jpg,0.344828,old
+lantern,tools,nonliving,thesis_stim/lantern_exemplar1.jpg,0.555556,old
+money,household_items,nonliving,thesis_stim/money_exemplar1.jpg,0.653061,old
+satellite dish,tools,nonliving,thesis_stim/satellitedish_exemplar1.jpg,0.24,old
+ashtray,furniture,nonliving,thesis_stim/ashtray_exemplar1.jpg,0.76,old
+canteen,tools,nonliving,thesis_stim/canteen_exemplar1.jpg,0.482143,old
+building,building,nonliving,thesis_stim/building_exemplar1.jpg,0.388889,old
+mitten,clothing,nonliving,thesis_stim/mitten_exemplar1.jpg,0.285714,old
+recycling bin,street_items,nonliving,thesis_stim/recycling_bin_exemplar1.jpg,0.583333,old
+booster seat,furniture,nonliving,thesis_stim/booster_seat_exemplar1.jpg,0.622222,old
+rollerskates,sports,nonliving,thesis_stim/rollerskates_exemplar1.jpg,0.477273,old
+beach chair,furniture,nonliving,thesis_stim/beach_chair_exemplar1.jpg,0.4,old
+octopus,sea,living,thesis_stim/octopus_exemplar1.jpg,0.930233,old
+bulldozer,vehicle,nonliving,thesis_stim/bulldozer_exemplar1.jpg,0.413793,old
+baseball bat,sports,nonliving,thesis_stim/baseball_bat_exemplar1.jpg,0.607143,old
+silo,building,nonliving,thesis_stim/silo_exemplar1.jpg,0.52,old
+cooler,kitchen_items,nonliving,thesis_stim/cooler_exemplar1.jpg,0.2,old
+cookie tin,kitchen_items,nonliving,thesis_stim/cookie_tin_exemplar1.jpg,0.269231,old
+spoon,kitchen_items,nonliving,thesis_stim/spoon_exemplar1.jpg,0.482759,old
+tour bus,vehicle,nonliving,thesis_stim/tour_bus_exemplar1.jpg,0.755556,old
+battery,electronics,nonliving,thesis_stim/battery_exemplar1.jpg,0.38,old
+fez,clothing,nonliving,thesis_stim/fez_exemplar1.jpg,0.5,old
+rolling pin,kitchen_items,nonliving,thesis_stim/rolling_pin_exemplar1.jpg,0.571429,old
+sand bucket,toys,nonliving,thesis_stim/sand_bucket_exemplar1.jpg,0.38,old
+key,household_items,nonliving,thesis_stim/key_exemplar1.jpg,0.46,old
+cash register,office_supplies,nonliving,thesis_stim/cash_register_exemplar1.jpg,0.62,old
+totem pole,decor,nonliving,thesis_stim/totempole_exemplar1.jpg,0.622222222,old
+skirt,clothing,nonliving,thesis_stim/skirt_exemplar1.jpg,0.454545,old
+pool,street_items,nonliving,thesis_stim/pool_exemplar1.jpg,0.413793,old
+dresser,furniture,nonliving,thesis_stim/dresser_exemplar1.jpg,0.655172,old
+windmill,building,nonliving,thesis_stim/windmill_exemplar1.jpg,0.422222,old
+skateboard,sports,nonliving,thesis_stim/skateboard_exemplar1.jpg,0.413793,old
+piano,music_inst,nonliving,thesis_stim/piano_exemplar1.jpg,0.45614,old
+dragon statue,decor,nonliving,thesis_stim/dragon_statue_exemplar1.jpg,0.551724,old
+headphone,electronics,nonliving,thesis_stim/headphone_exemplar1.jpg,0.535714,old
+dinosaur toy,toys,nonliving,thesis_stim/dinosaur_toy_exemplar1.jpg,0.714286,old
+ring,clothing,nonliving,thesis_stim/ring_exemplar1.jpg,0.54,old
+boot,clothing,nonliving,thesis_stim/boot_exemplar1.jpg,0.47619,old
+surfboard,sports,nonliving,thesis_stim/surfboard_exemplar1.jpg,0.530612,old
+belt,clothing,nonliving,thesis_stim/belt_exemplar1.jpg,0.653061,old
+television,electronics,nonliving,thesis_stim/television_exemplar1.jpg,0.448276,old
+guardrail,street_items,nonliving,thesis_stim/guardrail_exemplar1.jpg,0.428571,old
+cowbell,music_inst,nonliving,thesis_stim/cowbell_exemplar1.jpg,0.644444,old
+blender,appliances,nonliving,thesis_stim/blender_exemplar1.jpg,0.413793,old
+balloon,toys,nonliving,thesis_stim/balloon_exemplar1.jpg,0.446429,old
+outdoor table,furniture,nonliving,thesis_stim/outdoor_table_exemplar1.jpg,0.285714,old
+ski mask,clothing,nonliving,thesis_stim/ski_mask_exemplar1.jpg,0.77551,old
+bicycle,vehicle,nonliving,thesis_stim/bicycle_exemplar1.jpg,0.444444,old
+vase,household_items,nonliving,thesis_stim/vase_exemplar1.jpg,0.5,old
+pushpin,office_supplies,nonliving,thesis_stim/pushpin_exemplar1.jpg,0.625,old
+muffin tin,kitchen_items,nonliving,thesis_stim/muffin_tin_exemplar1.jpg,0.48,old
+q-tip,household_items,nonliving,thesis_stim/q-tip_exemplar1.jpg,0.321429,old
+horseshoe crab,sea,living,thesis_stim/horseshoe_crab_exemplar1.jpg,0.954545,old
+cap,clothing,nonliving,thesis_stim/cap_exemplar1.jpg,0.408163,old
+gas station,building,nonliving,thesis_stim/gas_station_exemplar1.jpg,0.527778,old
+galleon,vehicle,nonliving,thesis_stim/galleon_exemplar1.jpg,0.571429,old
+amplifier,electronics,nonliving,thesis_stim/amplifier_exemplar1.jpg,0.166667,old
+seahorse,sea,living,thesis_stim/seahorse_exemplar1.jpg,0.94,old
+elliptical,sports,nonliving,thesis_stim/elliptical_exemplar1.jpg,0.428571,old
+table saw,appliances,nonliving,thesis_stim/table_saw_exemplar1.jpg,0.44898,old
+castle,building,nonliving,thesis_stim/castle_exemplar1.jpg,0.357143,old
+camera,electronics,nonliving,thesis_stim/camera_exemplar1.jpg,0.490909,old
+covered wagon,vehicle,nonliving,thesis_stim/covered_wagon_exemplar1.jpg,0.37931,old
+sleigh,vehicle,nonliving,thesis_stim/sleigh_exemplar1.jpg,0.5,old
+strainer,tools,nonliving,thesis_stim/strainer_exemplar1.jpg,0.42,old
+wagon wheel,vehicle,nonliving,thesis_stim/wagon_wheel_exemplar1.jpg,0.4,old
+bow tie,clothing,nonliving,thesis_stim/bow_tie_exemplar1.jpg,0.448276,old
+scanner,electronics,nonliving,thesis_stim/scanner_exemplar1.jpg,0.4,old
+ice skate,clothing,nonliving,thesis_stim/ice_skate_exemplar1.jpg,0.392857,old
+clam,sea,living,thesis_stim/clam_exemplar1.jpg,0.638889,old
+crossbow,sports,nonliving,thesis_stim/crossbow_exemplar1.jpg,0.46,old
+cabin,building,nonliving,thesis_stim/cabin_exemplar1.jpg,0.489796,old
+shaker,kitchen_items,nonliving,thesis_stim/shaker_exemplar1.jpg,0.611111,old
+percussion instrument,music_inst,nonliving,thesis_stim/percussion_instrument_exemplar1.jpg,0.527273,old
+nesting dolls,toys,nonliving,thesis_stim/nesting_dolls_exemplar1.jpg,0.666667,old
+frying pan,kitchen_items,nonliving,thesis_stim/frying_pan_exemplar1.jpg,0.574074,old
+rope,tools,nonliving,thesis_stim/rope_exemplar1.jpg,0.642857,old
+wheelbarrow,tools,nonliving,thesis_stim/wheelbarrow_exemplar1.jpg,0.607143,old
+compass,tools,nonliving,thesis_stim/compass_exemplar1.jpg,0.275862,old
+jet-ski,vehicle,nonliving,thesis_stim/jet-ski_exemplar1.jpg,0.310345,old
+harp,music_inst,nonliving,thesis_stim/harp_exemplar1.jpg,0.6,old
+sewing machine,appliances,nonliving,thesis_stim/sewing_machine_exemplar1.jpg,0.444444,old
+camcorder,electronics,nonliving,thesis_stim/camcorder_exemplar1.jpg,0.265306,old
+toaster oven,appliances,nonliving,thesis_stim/toaster_oven_exemplar1.jpg,0.5,old
+cigar box,decor,nonliving,thesis_stim/cigar_box_exemplar1.jpg,0.64,old
+fan,appliances,nonliving,thesis_stim/fan_exemplar1.jpg,0.555556,old
+bee,insect,living,thesis_stim/bee_exemplar1.jpg,0.586207,old
+telephone,electronics,nonliving,thesis_stim/telephone_exemplar1.jpg,0.526316,old
+toy apple,toys,nonliving,thesis_stim/toy_apple_exemplar1.jpg,0.551724,old
+butterfly,insect,living,thesis_stim/butterfly_exemplar1.jpg,0.666667,old
+radio,electronics,nonliving,thesis_stim/radio_exemplar1.jpg,0.522727,old
+slinky,toys,nonliving,thesis_stim/slinky_exemplar1.jpg,0.457143,old
+tuba,music_inst,nonliving,thesis_stim/tuba_exemplar1.jpg,0.678571,old
+trophy,decor,nonliving,thesis_stim/trophy_exemplar1.jpg,0.3,old
+picnic table,street_items,nonliving,thesis_stim/picnic_table_exemplar1.jpg,0.574074,old
+mandolin,music_inst,nonliving,thesis_stim/mandolin_exemplar1.jpg,0.409091,old
+slug,insect,living,thesis_stim/slug_exemplar1.jpg,0.811321,old
+waffle iron,appliances,nonliving,thesis_stim/waffle_iron_exemplar1.jpg,0.451613,old
+dollhouse,toys,nonliving,thesis_stim/dollhouse_exemplar1.jpg,0.285714,old
+car,vehicle,nonliving,thesis_stim/car_exemplar1.jpg,0.34,old
+bucket,tools,nonliving,thesis_stim/bucket_exemplar1.jpg,0.77551,old
+lamppost,street_items,nonliving,thesis_stim/lamppost_exemplar1.jpg,0.444444,old
+pincushion,tools,nonliving,thesis_stim/pincushion_exemplar1.jpg,0.333333,old
+trowel,tools,nonliving,thesis_stim/trowel_exemplar1.jpg,0.55102,old
+pinata,decor,nonliving,thesis_stim/pinata_exemplar1.jpg,0.6,old
+weight bench,sports,nonliving,thesis_stim/weight_bench_exemplar1.jpg,0.545455,old
+firetruck,vehicle,nonliving,thesis_stim/firetruck_exemplar1.jpg,0.88,old
+wrench,tools,nonliving,thesis_stim/wrench_exemplar1.jpg,0.553571,old
+polaroid,electronics,nonliving,thesis_stim/polaroid_exemplar1.jpg,0.407407,old
+kingfisher,birds,living,thesis_stim/kingfisher_exemplar1.jpg,0.724138,old
+teddybear,toys,nonliving,thesis_stim/teddybear_exemplar1.jpg,0.688889,old
+banjo,music_inst,nonliving,thesis_stim/banjo_exemplar1.jpg,0.241379,old
+pencil,household_items,nonliving,thesis_stim/pencil_exemplar1.jpg,0.777778,old
+alarm clock,household_items,nonliving,thesis_stim/alarm_clock_exemplar1.jpg,0.408163,old
+guitar tuner,electronics,nonliving,thesis_stim/guitar_tuner_exemplar1.jpg,0.489796,old
+easel,tools,nonliving,thesis_stim/easel_exemplar1.jpg,0.444444,old
+swingset,street_items,nonliving,thesis_stim/swingset_exemplar1.jpg,0.44186,old
+rubber duck,toys,nonliving,thesis_stim/rubber_duck_exemplar1.jpg,0.666667,old
+clamp,tools,nonliving,thesis_stim/clamp_exemplar1.jpg,0.5,old
+syringe,tools,nonliving,thesis_stim/syringe_exemplar1.jpg,0.6,old
+circuit board,electronics,nonliving,thesis_stim/circuit_board_exemplar1.jpg,0.611111,old
+manatee,mammal,living,thesis_stim/manatee_exemplar1.jpg,0.52,old
+trash bin,street_items,nonliving,thesis_stim/trash_bin_exemplar1.jpg,0.42,old
+tennis ball,sports,nonliving,thesis_stim/tennis_ball_exemplar1.jpg,0.781818,old
+chick,birds,living,thesis_stim/chick_exemplar1.jpg,0.827586,old
+tray,kitchen_items,nonliving,thesis_stim/tray_exemplar1.jpg,0.4,old
+lighthouse,building,nonliving,thesis_stim/lighthouse_exemplar1.jpg,0.55102,old
+tricycle,vehicle,nonliving,thesis_stim/tricycle_exemplar1.jpg,0.34,old
+bunkbed,furniture,nonliving,thesis_stim/bunkbed_exemplar1.jpg,0.696429,old
+old camera,electronics,nonliving,thesis_stim/old_camera_exemplar1.jpg,0.310345,old
+dining chair,furniture,nonliving,thesis_stim/dining_chair_exemplar1.jpg,0.297872,old
+shelf,furniture,nonliving,thesis_stim/shelf_exemplar1.jpg,0.477273,old
+tent,sports,nonliving,thesis_stim/tent_exemplar1.jpg,0.527778,old
+barn,building,nonliving,thesis_stim/barn_exemplar1.jpg,0.5,old
+electric drumset,music_inst,nonliving,thesis_stim/electric_drumset_exemplar1.jpg,0.333333,old
+scotch tape,office_supplies,nonliving,thesis_stim/scotch_tape_exemplar1.jpg,0.413793,old
+musical keyboard,music_inst,nonliving,thesis_stim/musical_keyboard_exemplar1.jpg,0.563636,old
+record,music_inst,nonliving,thesis_stim/record_exemplar1.jpg,0.257143,old
+pick,tools,nonliving,thesis_stim/pick_exemplar1.jpg,0.586207,old
+house,building,nonliving,thesis_stim/house_exemplar1.jpg,0.44898,old
+binder,office_supplies,nonliving,thesis_stim/binder_exemplar1.jpg,0.321429,old
+jewlery box,decor,nonliving,thesis_stim/jewlery_box_exemplar1.jpg,0.44186,old
+pager,electronics,nonliving,thesis_stim/pager_exemplar1.jpg,0.333333,old
+taxi,vehicle,nonliving,thesis_stim/taxi_exemplar1.jpg,0.285714,old
+hookah,decor,nonliving,thesis_stim/hookah_exemplar1.jpg,0.714286,old
+file cabinet,furniture,nonliving,thesis_stim/file_cabinet_exemplar1.jpg,0.5,old
+coffeemaker,appliances,nonliving,thesis_stim/coffeemaker_exemplar1.jpg,0.551724,old
+bike helmet,clothing,nonliving,thesis_stim/bike_helmet_exemplar1.jpg,0.46,old
+wooden fence,street_items,nonliving,thesis_stim/wooden_fence_exemplar1.jpg,0.36,old
+flying insect,insect,living,thesis_stim/flying_insect_exemplar1.jpg,0.8,old
+telephone booth,street_items,nonliving,thesis_stim/telephone_booth_exemplar1.jpg,0.488372,old
+sheep,mammal,living,thesis_stim/sheep_exemplar1.jpg,0.755556,old
+thermos,sports,nonliving,thesis_stim/thermos_exemplar1.jpg,0.551724,old
+flask,kitchen_items,nonliving,thesis_stim/flask_exemplar1.jpg,0.6,old
+cross,decor,nonliving,thesis_stim/cross_exemplar1.jpg,0.790698,old
+parking meter,street_items,nonliving,thesis_stim/parking_meter_exemplar1.jpg,0.482759,old
+aqueduct,building,nonliving,thesis_stim/aqueduct_exemplar1.jpg,0.54,old
+mixer,appliances,nonliving,thesis_stim/mixer_exemplar1.jpg,0.6,old
+snowflake,decor,nonliving,thesis_stim/snowflake_exemplar1.jpg,0.698113,old
+church,building,nonliving,thesis_stim/church_exemplar1.jpg,0.555556,old
+tambourine,music_inst,nonliving,thesis_stim/tambourine_exemplar1.jpg,0.64,old
+dinner knife,kitchen_items,nonliving,thesis_stim/dinner_knife_exemplar1.jpg,0.285714,old
+shopping bag,tools,nonliving,thesis_stim/shopping_bag_exemplar1.jpg,0.326531,old
+sled,vehicle,nonliving,thesis_stim/sled_exemplar1.jpg,0.321429,old
+lip phone,decor,nonliving,thesis_stim/lip_phone_exemplar1.jpg,0.791667,old
+bassoon,music_inst,nonliving,thesis_stim/bassoon_exemplar1.jpg,0.642857,old
+firewood,household_items,nonliving,thesis_stim/firewood_exemplar1.jpg,0.489796,old
+helicopter,vehicle,nonliving,thesis_stim/helicopter_exemplar1.jpg,0.596154,old
+fire station,building,nonliving,thesis_stim/fire_station_exemplar1.jpg,0.485714,old
+pants,clothing,nonliving,thesis_stim/pants_exemplar1.jpg,0.469388,old
+lamborghini,vehicle,nonliving,thesis_stim/lamborghini_exemplar1.jpg,0.32,old
+hamster wheel,household_items,nonliving,thesis_stim/hamster_wheel_exemplar1.jpg,0.48,old
+mocassins,clothing,nonliving,thesis_stim/mocassins_exemplar1.jpg,0.277778,old
+hunting bow,sports,nonliving,thesis_stim/hunting_bow_exemplar1.jpg,0.607143,old
+frame,household_items,nonliving,thesis_stim/frame_exemplar1.jpg,0.464286,old
+crab,sea,living,thesis_stim/crab_exemplar1.jpg,0.638889,old
+drum,music_inst,nonliving,thesis_stim/drum_exemplar1.jpg,0.56,old
+haircomb,clothing,nonliving,thesis_stim/haircomb_exemplar1.jpg,0.777778,old
+flag,street_items,nonliving,thesis_stim/flag_exemplar1.jpg,0.38,old
+drum set,music_inst,nonliving,thesis_stim/drum_set_exemplar1.jpg,0.583333,old
+kayak,sports,nonliving,thesis_stim/kayak_exemplar1.jpg,0.55102,old
+recorder,music_inst,nonliving,thesis_stim/recorder_exemplar1.jpg,0.38,old
+couch,furniture,nonliving,thesis_stim/couch_exemplar1.jpg,0.595745,old
+book,office_supplies,nonliving,thesis_stim/book_exemplar1.jpg,0.433962,old
+medal,decor,nonliving,thesis_stim/medal_exemplar1.jpg,0.466667,old
+pepper shaker,kitchen_items,nonliving,thesis_stim/pepper_shaker_exemplar1.jpg,0.481481,old
+pyramid,building,nonliving,thesis_stim/pyramid_exemplar1.jpg,0.485714,old
+stapler,office_supplies,nonliving,thesis_stim/stapler_exemplar1.jpg,0.257143,old
+chainsaw,appliances,nonliving,thesis_stim/chainsaw_exemplar1.jpg,0.527273,old
+dryer,appliances,nonliving,thesis_stim/dryer_exemplar1.jpg,0.58,old
+dumbbell,sports,nonliving,thesis_stim/dumbbell_exemplar1.jpg,0.510204,old
+bathtub,furniture,nonliving,thesis_stim/bathtub_exemplar1.jpg,0.527778,old
+stork,birds,living,thesis_stim/stork_exemplar1.jpg,0.793103,old
+flower pot,household_items,nonliving,thesis_stim/flower_pot_exemplar1.jpg,0.577778,old
+trash can,street_items,nonliving,thesis_stim/trash_can_exemplar1.jpg,0.66,old
+bluebird,birds,living,thesis_stim/bluebird_exemplar1.jpg,0.74,old
+vcr,appliances,nonliving,thesis_stim/vcr_exemplar1.jpg,0.488889,old
+yoyo,toys,nonliving,thesis_stim/yoyo_exemplar1.jpg,0.58,old
+starfish,sea,living,thesis_stim/starfish_exemplar1.jpg,0.591837,old
+rainboot,clothing,nonliving,thesis_stim/rainboot_exemplar1.jpg,0.321429,old
+hot air balloon,vehicle,nonliving,thesis_stim/hot_air_balloon_exemplar1.jpg,0.62069,old
+construction helmet,clothing,nonliving,thesis_stim/construction_helmet_exemplar1.jpg,0.4,old
+clock,household_items,nonliving,thesis_stim/clock_exemplar1.jpg,0.444444,old
+goat,mammal,living,thesis_stim/goat_exemplar1.jpg,0.75,old
+mailbox,street_items,nonliving,thesis_stim/mailbox_exemplar1.jpg,0.333333,old
+ferris wheel,building,nonliving,thesis_stim/ferris_wheel_exemplar1.jpg,0.482759,old
+snowglobe,decor,nonliving,thesis_stim/snowglobe_exemplar1.jpg,0.42,old
+washboard,tools,nonliving,thesis_stim/washboard_exemplar1.jpg,0.367347,old
+puffin,birds,living,thesis_stim/puffin_exemplar1.jpg,0.416667,old
+hammock,furniture,nonliving,thesis_stim/hammock_exemplar1.jpg,0.510204,old
+radio tower,building,nonliving,thesis_stim/radio_tower_exemplar1.jpg,0.711111,old
+toy wagon,toys,nonliving,thesis_stim/toy_wagon_exemplar1.jpg,0.693878,old
+heron,birds,living,thesis_stim/heron_exemplar1.jpg,0.64,old
+chalice,decor,nonliving,thesis_stim/chalice_exemplar1.jpg,0.92,old
+hand mirror,household_items,nonliving,thesis_stim/hand_mirror_exemplar1.jpg,0.416667,old
+hockey mask,sports,nonliving,thesis_stim/hockey_mask_exemplar1.jpg,0.7,old
+guitar case,music_inst,nonliving,thesis_stim/guitar_case_exemplar1.jpg,0.464286,old
+kettle,kitchen_items,nonliving,thesis_stim/kettle_exemplar1.jpg,0.413793,old
+safe,tools,nonliving,thesis_stim/safe_exemplar1.jpg,0.571429,old
+boxing gloves,sports,nonliving,thesis_stim/boxing_gloves_exemplar1.jpg,0.795918,old
+doghouse,street_items,nonliving,thesis_stim/doghouse_exemplar1.jpg,0.84,old
+piggybank,decor,nonliving,thesis_stim/piggybank_exemplar1.jpg,0.166667,old
+umbrella,household_items,nonliving,thesis_stim/umbrella_exemplar1.jpg,0.340909,old
+calculator,electronics,nonliving,thesis_stim/calculator_exemplar1.jpg,0.28,old
+congo drum,music_inst,nonliving,thesis_stim/congo_drum_exemplar1.jpg,0.52,old
+triangle,music_inst,nonliving,thesis_stim/triangle_exemplar1.jpg,0.4375,old

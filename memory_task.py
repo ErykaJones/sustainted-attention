@@ -2,120 +2,146 @@ from psychopy import visual, core, clock, event,data
 import random
 import pandas as pd
 
-win =  visual.Window([1536, 864], fullscr=False)
+win =  visual.Window([1536, 864], fullscr=True)
 # Surprise Recognition Task
 memfileName = f"data/practice_Mem"
 memExp = data.ExperimentHandler(name = 'Memory Task', version = '1.0', dataFileName = memfileName) 
 
-stimList = pd.read_csv('mem_CB1.csv')
+stimList = pd.read_csv('mem_CB2.csv')
 
 practiceList = pd.read_csv('mem_practice.csv')
 
-idx_row = 0
+idx_row = 217
 pr_idx_row = 0
+
+text_new = visual.TextStim(win, text = 'sure new   maybe new   guess new', pos = (-0.5, -0.4), height = (0.08), units = 'norm', color = 'white')
+text_old = visual.TextStim(win, text = 'guess old   maybe old   sure old', pos = (0.5, -0.4), height = (0.08), units = 'norm', color = 'white')
+numbers_new = visual.TextStim(win, text = '1           2           3', pos = (-0.5, -0.5), height = (0.1), units = 'norm', color = 'white')
+numbers_old = visual.TextStim(win, text = '4           5           6', pos = (0.5, -0.5), height = (0.1), units = 'norm', color = 'white')
+keys_new = visual.TextStim(win, text = 'a          s           d', pos = (-0.5, -0.7), height = (0.1), units = 'norm', color = 'white')
+keys_old = visual.TextStim(win, text = 'j           k           l', pos = (0.5, -0.7), height = (0.1), units = 'norm', color = 'white')
+
+screenText1 = visual.TextStim(win, text = 'New', pos = (-0.4, -0.4), units = "norm", color = 'white') 
+response_new = visual.TextStim(win, text = 'd', pos = (-0.4, -0.5), units = "norm", color = 'white')
+screenText2 = visual.TextStim (win, text = 'Old', pos = (0.4, -0.4), units = "norm", color = 'white')
+response_old = visual.TextStim(win, text = 'j', pos = (0.4, -0.5), units = "norm", color = 'white')
+
+fixCross = visual.TextStim(win, text = '+', color = 'white')
+
+thank_you = visual.TextStim(win, text = 'Thank You!', pos = (0.0,0.0), units = 'norm', color = 'white')
 
 
 def StimRandom (stimList, idx_row): 
      global stimType 
+     global stim
      img_row = stimList.iloc[idx_row]
      img = stimList.iloc[idx_row, 3]
      stimType = stimList.iloc[idx_row, 5]
-     stim = visual.ImageStim(win, pos = [0,0])
+     stim = visual.ImageStim(win, pos = [0,0.1], size = [0.5,0.5], units = 'height')
      stim.setImage(img)
-     stim.draw()
      memExp.addData('stim', img) 
      memExp.addData('stimType', stimType) 
 
-
-def mem_resp (trialDuration = 1.5, rt = None, resp = None,): 
+def mem_resp (trialDuration = 2.0): 
     start_time = core.getTime() 
 
-    keys = event.waitKeys(maxWait = 1.5, keyList=['j', 'l'], timeStamped=True) 
+    keys = event.waitKeys(maxWait = trialDuration, keyList=['d', 'j', 'escape'], timeStamped=True) 
 
     key = None 
     rt = None
-    corr = 0 
+    corr = 0
+
     if keys: 
         key, press_time = keys[0] 
-        rt = press_time - start_time 
-            
-        if key == 'j': 
-            resp = 'j'
-        elif key == 'l': 
-            resp = 'l'
-            
-        if resp == 'j' and stimType == 'New': 
+        rt = press_time - start_time
+        resp = key 
+
+        if key == 'escape':
+            core.quit()
+    
+        if resp == 'd' and stimType == 'new': 
             corr = 1 
-        elif resp == 'l' and stimType == 'Old':
+        elif resp == 'j' and stimType == 'old':
             corr = 1 
         else:
             corr = 0 
+        print(corr)
         memExp.addData('keyPress', key) 
         memExp.addData('rt', rt) 
         memExp.addData('corr', corr)
-        return key, rt 
-        
-        return None, None 
+        return key, rt    
 
-for i in range(1):
+
+def confidenceRating():
+    keys = event.waitKeys(keyList=['a', 's', 'd', 'j', 'k', 'l'], timeStamped = True) 
+
+    start_time = core.getTime() 
+
+    key = None
+    if keys:
+        key, press_time = keys[0]
+        rt = start_time - press_time
+        if key == 'a':
+            resp = 'a'
+        elif key == 's':
+            resp = 's'
+        elif key == 'd':
+            resp = 'd'
+        elif key == 'j':
+            resp = 'j'
+        elif key == 'k':
+            resp = 'k'
+        elif key == 'l':
+            resp = 'l'
+        else:
+            resp = '999'
+    memExp.addData('Confidence', resp)
+    memExp.addData('RTs', rt)
+    return None 
+             
+
+for i in range (1):
     mem_instructions = visual.TextStim(win, text = ''' Surprise Recognition Task:
-    You will now be shown another series of objects presented to you in the middle of the screen. Your job is to identify whether or not you recognize the object from the attention task you just completed.
+    You will now judge if you've seen the objects before.  
+
+    If the object is one you saw in the memory task, it is OLD and press the LEFT arrow
+    If the object is new to you, it's NEW and press the RIGHT arrow
+
+    You will then be prompted to rate how sure you are. 
+    The left side of the screen represents the new objects and how sure you are that they are new. 
+    The right side of the screen represents the old objects and how sure you are that they are old. 
     
-    If the object is one you saw in the memory task, it is OLD and press 'j'
-    If the object is new to you, it's NEW and press 'l'
-    
-    Try to respond as fast as possible. 
-    Press 'space' to begin the task''', pos = [0,0])
-    mem_instructions.draw()
-    win.flip()
-    event.waitKeys(keyList = 'space')
-    win.flip()
-    for i in range(len(practiceList)):
-        StimRandom(practiceList, pr_idx_row)
-        screenText1 = visual.TextStim(win, text = 'New', pos = (-0.4, -0.4), units = "norm", color = 'white') 
-        screenText2 = visual.TextStim (win, text = 'Old', pos = (0.4, -0.4), units = "norm", color = 'white')
-        screenText1.draw()
-        screenText2.draw()
-        win.flip()
-        fixCross = visual.TextStim(win, text = '+', color = 'white')
-        fixCross.draw()
-        core.wait(1.5)
-        mem_resp()
-        pr_idx_row += 1 
-        win.flip()
-        jittered = random.randrange(350, 750)
-        jittered_ITI = jittered/1000
-        memExp.addData('ITI', jittered_ITI)
-        core.wait(jittered_ITI)
-    mem_instructions = visual.TextStim(win, text = ''' Surprise Recognition Task:
-    You will now be shown another series of objects presented to you in the middle of the screen. Your job is to identify whether or not you recognize the object from the attention task you just completed.
-    
-    If the object is one you saw in the memory task, it is OLD and press 'j'
-    If the object is new to you, it's NEW and press 'l'
-    
-    Try to respond as fast as possible. 
-    Press 'space' to begin the task''', pos = [0,0])
+    Press 'space' to begin the task''', pos = [0,0], height = (0.06))
     mem_instructions.draw()
     win.flip()
     event.waitKeys(keyList = 'space')
     win.flip()
     for i in range(len(stimList)):
         StimRandom(stimList, idx_row)
-        screenText1 = visual.TextStim(win, text = 'New', pos = (-0.4, -0.4), units = "norm", color = 'white') 
-        screenText2 = visual.TextStim (win, text = 'Old', pos = (0.4, -0.4), units = "norm", color = 'white')
+        stim.draw()
         screenText1.draw()
+        response_new.draw()
         screenText2.draw()
+        response_old.draw()
         win.flip()
-        core.wait(2.0)
-        fixCross = visual.TextStim(win, text = '+', color = 'white')
-        fixCross.draw()
         mem_resp()
+        stim.draw()
+        text_new.draw()
+        text_old.draw()
+        numbers_new.draw()
+        numbers_old.draw()
+        keys_new.draw()
+        keys_old.draw()
         idx_row += 1
+        win.flip()
+        confidenceRating()
+        fixCross.draw()
         win.flip()
         jittered = random.randrange(350, 750)
         jittered_ITI = jittered/1000
         memExp.addData('ITI', jittered_ITI)
         core.wait(jittered_ITI)
         memExp.nextEntry()
-    
+    thank_you.draw()
+    event.waitKeys(keyList = 'space')
 
